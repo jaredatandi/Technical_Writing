@@ -1,4 +1,4 @@
-## How to write a programming language interpreter
+# How to write a programming language interpreter
 
 ## Introduction
 A programming language interpreter is a program that reads and executes code written in a particular programming language. The interpreter translates the code into instructions that can be understood by the computer's processor. Interpreters are usually written in a lower-level language than the source code they interpret, and they can be either compiled or interpreted themselves.
