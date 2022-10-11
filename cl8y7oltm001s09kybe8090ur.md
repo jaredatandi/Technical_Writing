@@ -1,1 +1,328 @@
-IyMgTWFrZSBhbmQgTWFrZWZpbGU6IFRoZSB1bHRpbWF0ZSB0b29sIHRvIG1hbmFnZSB5b3VyIHByb2plY3RzCgojIyMgV2hhdCBpcyB0aGUgZGlmZmVyZW5jZSBiZXR3ZWVuIGEgbWFrZSBhbmQgbWFrZWZpbGU/CkEgTWFrZWZpbGUgaXMgYSBzcGVjaWZpYyBmaWxlIGZvcm1hdCB1c2VkIGJ5IHRoZSAibWFrZSIgdXRpbGl0eSBwcm9ncmFtIHRvIGRldGVybWluZSBob3cgdG8gY29tcGlsZSBhbmQgbGluayBhIGdyb3VwIG9mIHNvdXJjZSBjb2RlIGZpbGVzLiBTb21ldGltZXMsIGl0IGlzIGNvbW1vbmx5IGJlbGlldmVkIHRoYXQgbWFrZSBpcyB1c2VkIG9ubHkgaW4gc29mdHdhcmUgZGV2ZWxvcG1lbnQuIEluIGNvbnRyYXN0LCAibWFrZSIgaXMgYSBnZW5lcmFsLXB1cnBvc2UgdXRpbGl0eSB0aGF0IGNhbiBiZSB1c2VkIHRvIGJ1aWxkIGFueXRoaW5nLCBub3QganVzdCBzb2Z0d2FyZSBwcm9ncmFtcy4KCiMjIyBXaGF0IGFyZSBNYWtlZmlsZXM/CgpNYWtlZmlsZXMgYXJlIGZpbGVzIHRoYXQgY29udGFpbiBpbnN0cnVjdGlvbnMgb24gaG93IHRvIGNvbXBpbGUgYW5kIGxpbmsgYSBwcm9ncmFtLiBUaGV5IGFyZSB0eXBpY2FsbHkgdXNlZCBpbiBVbml4LWxpa2Ugb3BlcmF0aW5nIHN5c3RlbXMuIAoKVGhlIG1ha2UgcHJvZ3JhbSByZWFkcyBhIGZpbGUgbmFtZWQgIk1ha2VmaWxlIiBhbmQgdGhlbiBkZXRlcm1pbmVzIHdoaWNoIHRhcmdldHMgbmVlZCB0byBiZSByZWJ1aWx0LiBJdCB0aGVuIGludm9rZXMgdGhlIGFwcHJvcHJpYXRlIGNvbXBpbGVyIG9yIGxpbmtlciB0byBkbyB0aGUgd29yay4gVG8gc3RhcnQgdXNpbmcgbWFrZWZpbGVzLCBhbGwgeW91IG5lZWQgdG8gZG8gaXMgY3JlYXRlIGEgZmlsZSBuYW1lZCAiTWFrZWZpbGUiIGF0IHRoZSByb290IG9mIHlvdXIgcHJvamVjdC4KCk1ha2VmaWxlcyBjYW4gYmUgY3JlYXRlZCBieSBoYW5kIG9yIGdlbmVyYXRlZCBieSBhIHRvb2wgc3VjaCBhcyBDTWFrZS4KCiMjIyBQcmVyZXF1aXNpdGVzClRoaXMgYXJ0aWNsZSBhc3N1bWVzIHlvdSBoYXZlIGEgd29ya2luZyB1bmRlcnN0YW5kaW5nIG9mIHRoZSBUZXJtaW5hbCBhbmQgaG93IHRvIHJ1biBjb21tYW5kcy4KSXQgYWxzbyBhc3N1bWVzIHlvdSB1bmRlcnN0YW5kIGhvdyBhbmQgaGF2ZSBpbnN0YWxsZWQgZGV2IHRvb2xzIHRoYXQgY29udGFpbiBgZ2NjYCBgZ2RiYCBgbWFrZWAgZXRjIAoKIyMjIFdoeSB1c2UgTWFrZWZpbGVzPwoKTWFrZWZpbGVzIHByb3ZpZGUgYSB3YXkgdG8gYnVpbGQgYSBwcm9ncmFtIGZyb20gc291cmNlIGNvZGUuIFRoZXkgY2FuIGJlIHVzZWQgdG8gYXV0b21hdGUgdGhlIGJ1aWxkIHByb2Nlc3MuCgpNYWtlZmlsZXMgY2FuIGFsc28gYmUgdXNlZCB0byBzcGVjaWZ5IGRlcGVuZGVuY2llcyBiZXR3ZWVuIGZpbGVzLiBGb3IgZXhhbXBsZSwgaWYgYSBzb3VyY2UgZmlsZSBpbmNsdWRlcyBhbm90aGVyIGZpbGUsIHRoZSBNYWtlZmlsZSBjYW4gZW5zdXJlIHRoYXQgdGhlIGluY2x1ZGVkIGZpbGUgaXMgdXAgdG8gZGF0ZSBiZWZvcmUgYnVpbGRpbmcgdGhlIHNvdXJjZSBmaWxlLgoKIyMjIEhvdyBkbyBJIGNyZWF0ZSBhIE1ha2VmaWxlPwoKVGhlcmUgYXJlIHR3byB3YXlzIHRvIGNyZWF0ZSBhIE1ha2VmaWxlLiBUaGUgZmlyc3QgaXMgdG8gd3JpdGUgb25lIGJ5IGhhbmQuIFRoZSBzZWNvbmQgaXMgdG8gdXNlIGEgdG9vbCBzdWNoIGFzIENNYWtlLgoKVG8gd3JpdGUgYSBNYWtlZmlsZSBieSBoYW5kLCB5b3Ugd2lsbCBuZWVkIHRvIGtub3cgdGhlIHN5bnRheCBvZiB0aGUgbWFrZWZpbGUgbGFuZ3VhZ2UuIEEgc2ltcGxlIE1ha2VmaWxlIG1pZ2h0IGxvb2sgbGlrZSB0aGlzOgoKYGBgIG1ha2VmaWxlCmFsbDoKICAgIGdjYyAtbyBteXByb2dyYW0gbXlwcm9ncmFtLmMKYGBgClRoaXMgTWFrZWZpbGUgaGFzIG9uZSB0YXJnZXQsIGBhbGxgLCBvZiB3aGljaCBpcyB0aGUgZGVmYXVsdCB0YXJnZXQuIFRoZSBgYWxsYCB0YXJnZXQgZGVwZW5kcyBvbiBgbXlwcm9ncmFtLmNgLCB3aGljaCBpcyB0aGUgc291cmNlIGZpbGUgdGhhdCB3aWxsIGJlIGNvbXBpbGVkLgoKVGhlIGBnY2NgIGNvbW1hbmQgaXMgdXNlZCB0byBjb21waWxlIHRoZSBzb3VyY2UgZmlsZS4gVGhlIGAtbyBgb3B0aW9uIHRlbGxzIGBnY2NgIHRvIG91dHB1dCB0aGUgY29tcGlsZWQgcHJvZ3JhbSB0byBhIGZpbGUgbmFtZWQgYG15cHJvZ3JhbWAuCgpUbyBidWlsZCB0aGUgcHJvZ3JhbSwgeW91IHdvdWxkIHR5cGUgYG1ha2VgIGF0IHRoZSBjb21tYW5kIGxpbmUuIFRoaXMgd291bGQgY2F1c2UgYGdjY2AgdG8gY29tcGlsZSBgbXlwcm9ncmFtLmNgIGFuZCBvdXRwdXQgdGhlIGNvbXBpbGVkIHByb2dyYW0gdG8gYG15cHJvZ3JhbWAuCgpJZiB5b3UgY2hhbmdlIGBteXByb2dyYW0uY2AsIHlvdSBjYW4gdHlwZSBgbWFrZWAgYWdhaW4gdG8gcmVidWlsZCB0aGUgcHJvZ3JhbS4gTWFrZSB3aWxsIGNoZWNrIHRoZSB0aW1lc3RhbXAgb2YgYG15cHJvZ3JhbS5jYCBhbmQsIHNpbmNlIGl0IGlzIG5ld2VyIHRoYW4gYG15cHJvZ3JhbWAsIHdpbGwgcmVjb21waWxlIGl0LgoKWW91IGNhbiBhbHNvIHR5cGUgYG1ha2UgYWxsYCB0byByZWJ1aWxkIGFsbCB0YXJnZXRzIGluIHRoZSBNYWtlZmlsZS4KCk1ha2VmaWxlcyBjYW4gYmUgbXVjaCBtb3JlIGNvbXBsZXggdGhhbiB0aGUgb25lIHNob3duIGFib3ZlLiBUaGV5IGNhbiBoYXZlIG11bHRpcGxlIHRhcmdldHMgYW5kIGRlcGVuZGVuY2llcy4gVGhleSBjYW4gYWxzbyBpbmNsdWRlIHZhcmlhYmxlcyBhbmQgbWFjcm9zLgoKVG8gbGVhcm4gbW9yZSBhYm91dCBNYWtlZmlsZXMsIGNvbnN1bHQgYSBib29rIG9uIFVuaXggcHJvZ3JhbW1pbmcgb3IgcmVhZCB0aGUKW2RvY3VtZW50YXRpb25dKGh0dHBzOi8vd3d3LmdudS5vcmcvc29mdHdhcmUvbWFrZS9tYW51YWwvbWFrZS5odG1sKSBmb3IgdGhlIG1ha2UgcHJvZ3JhbS4KCgojIyMgSG93IHRvIFdyaXRlIGEgTWFrZWZpbGUKClRoZSBzeW50YXggb2YgYSBNYWtlZmlsZSBpcyB2ZXJ5IHNpbXBsZS4gRWFjaCBydWxlIG11c3Qgc3RhcnQgd2l0aCBhIHRhcmdldCwgZm9sbG93ZWQgYnkgYSBjb2xvbiwgZm9sbG93ZWQgYnkgYSBsaXN0IG9mIGRlcGVuZGVuY2llcy4gVGhlIGRlcGVuZGVuY2llcyBhcmUgc2VwYXJhdGVkIGJ5IHNwYWNlcy4gT3B0aW9uYWxseSwgdGhlIHJ1bGUgbWF5IGFsc28gc3BlY2lmeSBhIGxpc3Qgb2YgY29tbWFuZHMgdG8gYmUgZXhlY3V0ZWQgdG8gYnVpbGQgdGhlIHRhcmdldC4gSWYgYSBydWxlIGRvZXMgbm90IHNwZWNpZnkgYW55IGNvbW1hbmRzLCB0aGUgbWFrZSBwcm9ncmFtIHdpbGwgdXNlIGEgZGVmYXVsdCBzZXQgb2YgY29tbWFuZHMuIEZvciBtb3N0IHRhcmdldHMsIHRoZSBkZWZhdWx0IGNvbW1hbmRzIHdpbGwgc3VmZmljZS4gSW4gc29tZSBjYXNlcywgaG93ZXZlciwgaXQgbWF5IGJlIG5lY2Vzc2FyeSB0byBzcGVjaWZ5IGN1c3RvbSBjb21tYW5kcy4KClRoZSBjb21tYW5kcyBhc3NvY2lhdGVkIHdpdGggYSBydWxlIG11c3QgYmUgaW5kZW50ZWQgd2l0aCB0YWJzIG9yIHNwYWNlcy4gVGhlIGNvbW1hbmRzIHdpbGwgYmUgZXhlY3V0ZWQgaW4gdGhlIG9yZGVyIGluIHdoaWNoIHRoZXkgYXBwZWFyIGluIHRoZSBNYWtlZmlsZS4gSGVyZSBpcyBhIHNpbXBsZSBleGFtcGxlIG9mIGEgTWFrZWZpbGU6CgpgYGAgbWFrZWZpbGUKZm9vOiBmb28uYyBiYXIuYyAgICAKICAgICBnY2MgLW8gZm9vIGZvby5jIGJhci5jCmBgYApUaGlzIE1ha2VmaWxlIGNvbnRhaW5zIGEgc2luZ2xlIHJ1bGUuIFRoZSB0YXJnZXQgaXMgImZvbyIgYW5kIHRoZSBkZXBlbmRlbmNpZXMgYXJlICJmb28uYyIgYW5kICJiYXIuYyIuIFRoZSBjb21tYW5kcyB0byBidWlsZCAiZm9vIiBhcmUganVzdCB0aGUgc3RhbmRhcmQgYGdjY2AgY29tbWFuZHMuIE5vdGUgdGhhdCB0aGUgY29tbWFuZHMgaW4gdGhlIE1ha2VmaWxlIGFyZSBleGVjdXRlZCBpbiBhIHNoZWxsLiBUaGlzIG1lYW5zIHRoYXQgc2hlbGwgZmVhdHVyZXMsIHN1Y2ggYXMgd2lsZGNhcmRzIGFuZCB2YXJpYWJsZXMsIGNhbiBiZSB1c2VkIGluIHRoZSBjb21tYW5kcy4KClZhcmlhYmxlcyBjYW4gYmUgdXNlZCBpbiBNYWtlZmlsZXMgdG8gYXZvaWQgcmVwZXRpdGlvbi4gRm9yIGV4YW1wbGUsIHRoZSBgQ0ZMQUdTIGB2YXJpYWJsZSBjYW4gYmUgdXNlZCB0byBzcGVjaWZ5IHRoZSBmbGFncyB0aGF0IHNob3VsZCBiZSBwYXNzZWQgdG8gdGhlIEMgY29tcGlsZXIuIEFsbCBydWxlcyB0aGF0IGJ1aWxkIEMgcHJvZ3JhbXMgY2FuIHRoZW4gdXNlIHRoZSBgJChDRkxBR1MpYCB2YXJpYWJsZSBpbnN0ZWFkIG9mIHJlcGVhdGluZyB0aGUgZmxhZ3MgaW4gZWFjaCBydWxlLiBIZXJlIGlzIGFuIGV4YW1wbGUgb2YgYSBNYWtlZmlsZSB0aGF0IHVzZXMgdGhlIENGTEFHUyB2YXJpYWJsZToKCmBgYCBtYWtlZmlsZQpDRkxBR1MgPSAtZyAtTzIKZm9vOiBmb28uYyBiYXIuYwogICAgIGdjYyAkKENGTEFHUykgLW8gZm9vIGZvby5jIGJhci5jCmBgYAoKSW4gdGhpcyBleGFtcGxlLCB0aGUgYENGTEFHUyBgdmFyaWFibGUgaXMgc2V0IHRvICItZyAtTzIiLiBUaGlzIGNhdXNlcyB0aGUgYGdjY2AgY29tbWFuZCB0byBiZSBleGVjdXRlZCB3aXRoIHRoZSAiLWciIGFuZCAiLU8yIiBmbGFncy4gVGhlIGAkKENGTEFHUylgIHZhcmlhYmxlIGNhbiBiZSB1c2VkIGluIGFueSBydWxlLCBub3QganVzdCBydWxlcyB0aGF0IGJ1aWxkIEMgcHJvZ3JhbXMuIEl0IGlzIGNvbW1vbiB0byBzZXQgb3RoZXIgdmFyaWFibGVzLCBzdWNoIGFzIGBDQ2AgKHRoZSBDIGNvbXBpbGVyKSBhbmQgYExERkxBR1NgIChsaW5rZXIgZmxhZ3MpLCBpbiBhIE1ha2VmaWxlLgoKIyMjIE1hY3JvcwoKIE1hY3JvcyBjYW4gYWxzbyBiZSB1c2VkIGluIE1ha2VmaWxlcy4gTWFjcm9zIGFyZSBzaW1pbGFyIHRvIHZhcmlhYmxlcywgYnV0IHRoZXkgYXJlIGV4cGFuZGVkIGJlZm9yZSB0aGUgTWFrZWZpbGUgaXMgcmVhZC4gVGhpcyBtZWFucyB0aGF0IG1hY3JvcyBjYW4gYmUgdXNlZCB0byBjb25kaXRpb25hbGx5IGluY2x1ZGUgb3IgZXhjbHVkZSBwYXJ0cyBvZiB0aGUgTWFrZWZpbGUuIAoKSGVyZSBpcyBhbiBleGFtcGxlIG9mIGEgTWFrZWZpbGUgdGhhdCB1c2VzIG1hY3JvczoKCmBgYCBtYWtlZmlsZQppZmVxICgkKERFQlVHKSwxKQogICAgIENGTEFHUyA9IC1nIC1PMAplbHNlCiAgICAgIENGTEFHUyA9IC1PMgplbmRpZgpmb286IGZvby5jIGJhci5jCiAgICAgZ2NjICQoQ0ZMQUdTKSAtbyBmb28gZm9vLmMgYmFyLmMKYGBgCgpJbiB0aGlzIGV4YW1wbGUsIHRoZSBgREVCVUdgIG1hY3JvIGlzIHVzZWQgdG8gY29udHJvbCB0aGUgdmFsdWUgb2YgdGhlIGBDRkxBR1NgIHZhcmlhYmxlLiBJZiBgREVCVUdgIGlzIHNldCB0byAxLCB0aGVuIGBDRkxBR1NgIHdpbGwgYmUgc2V0IHRvICItZyAtTzAiLiBJZiBgREVCVUdgIGlzIG5vdCBzZXQsIG9yIGlzIHNldCB0byBhbnkgb3RoZXIgdmFsdWUsIHRoZW4gYENGTEFHU2Agd2lsbCBiZSBzZXQgdG8gIi1PMiIuCgpNYWNyb3MgY2FuIGFsc28gYmUgdXNlZCB0byBjcmVhdGUgYWJicmV2aWF0aW9ucyBmb3IgbG9uZyBzdHJpbmdzLiBGb3IgZXhhbXBsZSwgdGhlIGZvbGxvd2luZyBNYWtlZmlsZSB1c2VzIHRoZSBgRk9PYCBtYWNybyB0byBhYmJyZXZpYXRlIHRoZSAiZm9vLmMgYmFyLmMiIHN0cmluZzoKCmBgYCBtYWtlZmlsZQpGT08gPSBmb28uYyBiYXIuYwpmb286ICQoRk9PKQogICAgZ2NjIC1vIGZvbyAkKEZPTykKYGBgCgpJbiB0aGlzIGV4YW1wbGUsIHRoZSBgRk9PYCBtYWNybyBpcyBleHBhbmRlZCB0byAiZm9vLmMgYmFyLmMiIHdoZW4gdGhlIHJ1bGUgaXMgcmVhZC4gVGhpcyBpcyBlcXVpdmFsZW50IHRvIHdyaXRpbmcgImZvbzogZm9vLmMgYmFyLmMiIGluIHRoZSBNYWtlZmlsZS4KCk1hY3JvcyBjYW4gYWxzbyBiZSB1c2VkIHRvIGNvbmRpdGlvbmFsbHkgaW5jbHVkZSBvciBleGNsdWRlIHBhcnRzIG9mIHRoZSBNYWtlZmlsZS4gSGVyZSBpcyBhbiBleGFtcGxlIG9mIGEgTWFrZWZpbGUgdGhhdCB1c2VzIG1hY3JvcyB0byBjb25kaXRpb25hbGx5IGluY2x1ZGUgb3IgZXhjbHVkZSBwYXJ0cyBvZiB0aGUgTWFrZWZpbGU6CgpgYGAgbWFrZWZpbGUKaWZlcSAoJChPUyksV2luZG93cykKICAgIFNPVVJDRVMgPSBmb28uYyBiYXIuYwplbHNlCiAgICBTT1VSQ0VTID0gZm9vLmMgYmF6LmMKZW5kaWYKZm9vOiAkKFNPVVJDRVMpCiAgICAgZ2NjIC1vIGZvbyAkKFNPVVJDRVMpCmBgYApJbiB0aGlzIGV4YW1wbGUsIHRoZSAgYE9TIGBtYWNybyBpcyB1c2VkIHRvIGNvbnRyb2wgd2hpY2ggZmlsZXMgYXJlIGluY2x1ZGVkIGluIHRoZSBgU09VUkNFU2AgdmFyaWFibGUuIElmIGBPU2AgaXMgc2V0IHRvICJXaW5kb3dzIiwgdGhlbiB0aGUgYFNPVVJDRVNgIHZhcmlhYmxlIHdpbGwgYmUgc2V0IHRvICJmb28uYyBiYXIuYyIuIElmIGBPU2AgaXMgc2V0IHRvIGFueXRoaW5nIGVsc2UsIHRoZW4gdGhlIGBTT1VSQ0VTYCB2YXJpYWJsZSB3aWxsIGJlIHNldCB0byAiZm9vLmMgYmF6LmMiLgoKVGhlIE1ha2VmaWxlIHdpbGwgdGhlbiBidWlsZCAiZm9vIiB1c2luZyB0aGUgZmlsZXMgaW4gdGhlIGBTT1VSQ0VTYCB2YXJpYWJsZS4KCiMjIyBCdWlsZGluZyBtdWx0aXBsZSB0YXJnZXRzCgpNYWtlZmlsZXMgY2FuIGFsc28gYmUgdXNlZCB0byBidWlsZCBtdWx0aXBsZSB0YXJnZXRzLiBFYWNoIHJ1bGUgaW4gYSBNYWtlZmlsZSBjYW4gaGF2ZSBtdWx0aXBsZSB0YXJnZXRzLiBUaGUgdGFyZ2V0cyBtdXN0IGJlIHNlcGFyYXRlZCBieSBzcGFjZXMuCgpIZXJlIGlzIGFuIGV4YW1wbGUgb2YgYSBNYWtlZmlsZSB0aGF0IGJ1aWxkcyB0d28gdGFyZ2V0czoKCmBgYCBtYWtlZmlsZQpmb286IGZvby5jIGJhci5jCiAgICAgIGdjYyAtbyBmb28gZm9vLmMgYmFyLmMKYmF6OiBiYXouYwogICAgICBnY2MgLW8gYmF6IGJhei5jCmBgYApJbiB0aGlzIGV4YW1wbGUsIHRoZSBmaXJzdCBydWxlIGJ1aWxkcyB0aGUgImZvbyIgdGFyZ2V0LiBUaGUgc2Vjb25kIHJ1bGUgYnVpbGRzIHRoZSAiYmF6IiB0YXJnZXQuCgpUaGUgY29tbWFuZHMgYXNzb2NpYXRlZCB3aXRoIGVhY2ggdGFyZ2V0IGNhbiBiZSBkaWZmZXJlbnQuIEluIHRoZSBleGFtcGxlIGFib3ZlLCB0aGUgImZvbyIgdGFyZ2V0IGlzIGJ1aWx0IHdpdGggdGhlIGBnY2NgIGNvbW1hbmQsIHdoaWxlIHRoZSAiYmF6IiB0YXJnZXQgaXMgYnVpbHQgd2l0aCB0aGUgYGNjYCBjb21tYW5kLgoKTWFrZWZpbGVzIGNhbiBhbHNvIGJlIHVzZWQgdG8gYnVpbGQgbXVsdGlwbGUgdmVyc2lvbnMgb2YgYSB0YXJnZXQuIEZvciBleGFtcGxlLCBhIE1ha2VmaWxlIGNhbiBiZSB1c2VkIHRvIGJ1aWxkIGEgZGVidWcgdmVyc2lvbiBhbmQgYSByZWxlYXNlIHZlcnNpb24gb2YgYSBwcm9ncmFtLgoKSGVyZSBpcyBhbiBleGFtcGxlIG9mIGEgTWFrZWZpbGUgdGhhdCBidWlsZHMgdHdvIHZlcnNpb25zIG9mIGEgdGFyZ2V0OgoKYGBgIG1ha2VmaWxlCkRFQlVHID0gMQppZmVxICgkKERFQlVHKSwxKQogICAgICBDRkxBR1MgPSAtZwplbHNlCiAgICAgIENGTEFHUyA9IC1PMgplbmRpZgpmb286IGZvby5jCiAgICAgIGdjYyAkKENGTEFHUykgLW8gZm9vIGZvby5jCmBgYAoKSW4gdGhpcyBleGFtcGxlLCB0aGUgIGBERUJVR2AgbWFjcm8gaXMgdXNlZCB0byBjb250cm9sIHRoZSB2YWx1ZSBvZiB0aGUgYENGTEFHU2AgdmFyaWFibGUuIElmIGBERUJVR2AgaXMgc2V0IHRvIDEsIHRoZW4gdGhlIGBDRkxBR1NgIHZhcmlhYmxlIHdpbGwgYmUgc2V0IHRvICItZyIuIElmIERFQlVHIGlzIHNldCB0byAwLCB0aGVuIHRoZSBgQ0ZMQUdTYCB2YXJpYWJsZSB3aWxsIGJlIHNldCB0byAiLU8yIi4KClRoZSAiZm9vIiB0YXJnZXQgd2lsbCBiZSBidWlsdCB0d2ljZSwgb25jZSB3aXRoIHRoZSAiLWciIGZsYWcgYW5kIG9uY2Ugd2l0aCB0aGUgIi1PMiIgZmxhZy4KCiMjIyBCdWlsZGluZyBsaWJyYXJpZXMgYW5kIGxpbmtpbmcgZmlsZXMKCk1ha2VmaWxlcyBjYW4gYWxzbyBiZSB1c2VkIHRvIGJ1aWxkIGxpYnJhcmllcy4gQSBsaWJyYXJ5IGlzIGEgY29sbGVjdGlvbiBvZiBvYmplY3QgZmlsZXMgdGhhdCBjYW4gYmUgbGlua2VkIHRvZ2V0aGVyIHRvIGZvcm0gYSBsYXJnZXIgcHJvZ3JhbS4KCkhlcmUgaXMgYW4gZXhhbXBsZSBvZiBhIE1ha2VmaWxlIHRoYXQgYnVpbGRzIGEgbGlicmFyeToKCmBgYCBtYWtlZmlsZQpsaWJmb28uYTogZm9vLm8gYmFyLm8KICAgICAgICBhciByY3MgbGliZm9vLmEgZm9vLm8gYmFyLm8KYGBgCgpJbiB0aGlzIGV4YW1wbGUsIHRoZSAibGliZm9vLmEiIHRhcmdldCBpcyBhIGxpYnJhcnkuIFRoZSAiZm9vLm8iIGFuZCAiYmFyLm8iIGZpbGVzIGFyZSB0aGUgb2JqZWN0IGZpbGVzIHRoYXQgYXJlIGluY2x1ZGVkIGluIHRoZSBsaWJyYXJ5LiBUaGUgImFyIiBjb21tYW5kIGlzIHVzZWQgdG8gY3JlYXRlIHRoZSBsaWJyYXJ5LgoKTWFrZWZpbGVzIGNhbiBhbHNvIGJlIHVzZWQgdG8gYnVpbGQgcHJvZ3JhbXMgdGhhdCB1c2UgbGlicmFyaWVzLiBIZXJlIGlzIGFuIGV4YW1wbGUgb2YgYSBNYWtlZmlsZSB0aGF0IGJ1aWxkcyBhIHByb2dyYW0gdGhhdCB1c2VzIGEgbGlicmFyeToKCmBgYCBtYWtlZmlsZQpwcm9ncmFtOiBwcm9ncmFtLm8gbGliZm9vLmEKICAgICAgICAgZ2NjIC1vIHByb2dyYW0gcHJvZ3JhbS5vIC1MLiAtbGZvbwpgYGAKSW4gdGhpcyBleGFtcGxlLCB0aGUgInByb2dyYW0iIHRhcmdldCBpcyBhIHByb2dyYW0uIFRoZSAicHJvZ3JhbS5vIiBmaWxlIGlzIHRoZSBvYmplY3QgZmlsZSB0aGF0IGlzIGluY2x1ZGVkIGluIHRoZSBwcm9ncmFtLiBUaGUgImxpYmZvby5hIiBmaWxlIGlzIHRoZSBsaWJyYXJ5IHRoYXQgdGhlIHByb2dyYW0gdXNlcy4gVGhlICItTC4iIGZsYWcgdGVsbHMgdGhlIGxpbmtlciB0byBzZWFyY2ggdGhlIGN1cnJlbnQgZGlyZWN0b3J5IGZvciBsaWJyYXJpZXMuIFRoZSAiLWxmb28iIGZsYWcgdGVsbHMgdGhlIGxpbmtlciB0byB1c2UgdGhlICJsaWJmb28uYSIgbGlicmFyeS4KCiMjIyBVc2luZyBwYXRoIGluIG1ha2VmaWxlCgpNYWtlZmlsZXMgY2FuIGFsc28gYmUgdXNlZCB0byBidWlsZCBwcm9ncmFtcyB0aGF0IHVzZSBsaWJyYXJpZXMgdGhhdCBhcmUgbm90IGluIHRoZSBkZWZhdWx0IHNlYXJjaCBwYXRoLiBIZXJlIGlzIGFuIGV4YW1wbGUgb2YgYSBNYWtlZmlsZSB0aGF0IGJ1aWxkcyBhIHByb2dyYW0gdGhhdCB1c2VzIGEgbGlicmFyeSB0aGF0IGlzIG5vdCBpbiB0aGUgZGVmYXVsdCBzZWFyY2ggcGF0aDoKCmBgYCBtYWtlZmlsZQpwcm9ncmFtOiBwcm9ncmFtLm8gbGliZm9vLmEKICAgICAgICBnY2MgLW8gcHJvZ3JhbSBwcm9ncmFtLm8gLUwvcGF0aC90by9saWJmb28gLWxmb28KYGBgCgpJbiB0aGlzIGV4YW1wbGUsIHRoZSAicHJvZ3JhbSIgdGFyZ2V0IGlzIGEgcHJvZ3JhbS4gVGhlICJwcm9ncmFtLm8iIGZpbGUgaXMgdGhlIG9iamVjdCBmaWxlIHRoYXQgaXMgaW5jbHVkZWQgaW4gdGhlIHByb2dyYW0uIFRoZSAibGliZm9vLmEiIGZpbGUgaXMgdGhlIGxpYnJhcnkgdGhhdCB0aGUgcHJvZ3JhbSB1c2VzLiBUaGUgIi1ML3BhdGgvdG8vbGliZm9vIiBmbGFnIHRlbGxzIHRoZSBsaW5rZXIgdG8gc2VhcmNoIHRoZSAiL3BhdGgvdG8vbGliZm9vIiBkaXJlY3RvcnkgZm9yIGxpYnJhcmllcy4gVGhlICItbGZvbyIgZmxhZyB0ZWxscyB0aGUgbGlua2VyIHRvIHVzZSB0aGUgImxpYmZvby5hIiBsaWJyYXJ5LgoKIyMjIFJ1bm5pbmcgbWFrZWZpbGVzIHdpdGggZmxhZ3MKClRoZSBtYWtlIHByb2dyYW0gY2FuIGJlIGludm9rZWQgd2l0aCB0aGUgIi1uIiBmbGFnIHRvIHByaW50IHRoZSBjb21tYW5kcyB0aGF0IHdvdWxkIGJlIGV4ZWN1dGVkIHdpdGhvdXQgYWN0dWFsbHkgZXhlY3V0aW5nIHRoZW0uIFRoaXMgY2FuIGJlIHVzZWZ1bCBmb3IgZGVidWdnaW5nIE1ha2VmaWxlcy4gSGVyZSBpcyBhbiBleGFtcGxlIG9mIHVzaW5nIHRoZSAiLW4iIGZsYWc6CgpgYGAgc2hlbGwKJCBtYWtlIC1uCmdjYyAtbyBmb28gZm9vLmMgYmFyLmMKZ2NjIC1vIGJheiBiYXouYwphciByY3MgbGliZm9vLmEgZm9vLm8gYmFyLm8KZ2NjIC1vIHByb2dyYW0gcHJvZ3JhbS5vIC1MLiAtbGZvbwpgYGAKCkluIHRoaXMgZXhhbXBsZSwgdGhlIG1ha2UgcHJvZ3JhbSBpcyBpbnZva2VkIHdpdGggdGhlICItbiIgZmxhZy4gVGhlIG91dHB1dCBzaG93cyB0aGUgY29tbWFuZHMgdGhhdCB3b3VsZCBiZSBleGVjdXRlZCBpZiB0aGUgIi1uIiBmbGFnIHdhcyBub3QgdXNlZC4KClRoZSBtYWtlIHByb2dyYW0gY2FuIGFsc28gYmUgaW52b2tlZCB3aXRoIHRoZSAiLXQiIGZsYWcgdG8gdG91Y2ggdGhlIHRhcmdldHMuIFRoaXMgY2F1c2VzIHRoZSB0YXJnZXRzIHRvIGJlIHVwZGF0ZWQgd2l0aCB0aGUgY3VycmVudCB0aW1lc3RhbXAuIFRoaXMgY2FuIGJlIHVzZWZ1bCB3aGVuIHRoZSBkZXBlbmRlbmNpZXMgb2YgdGhlIHRhcmdldHMgaGF2ZSBjaGFuZ2VkIGFuZCB0aGUgdGFyZ2V0cyBuZWVkIHRvIGJlIHJlYnVpbHQuCgpIZXJlIGlzIGFuIGV4YW1wbGUgb2YgdXNpbmcgdGhlICItdCIgZmxhZzoKCmBgYCBjb25zb2xlCiQgbWFrZSAtdAp0b3VjaCBmb28KdG91Y2ggYmF6CnRvdWNoIGxpYmZvby5hCnRvdWNoIHByb2dyYW0KYGBgCgpJbiB0aGlzIGV4YW1wbGUsIHRoZSBtYWtlIHByb2dyYW0gaXMgaW52b2tlZCB3aXRoIHRoZSAiLXQiIGZsYWcuIFRoZSBvdXRwdXQgc2hvd3MgdGhlIHRhcmdldHMgdGhhdCB3ZXJlIHVwZGF0ZWQuCgpUaGUgbWFrZSBwcm9ncmFtIGNhbiBhbHNvIGJlIGludm9rZWQgd2l0aCB0aGUgIi1qIiBmbGFnIHRvIHJ1biBtdWx0aXBsZSBjb21tYW5kcyBpbiBwYXJhbGxlbC4gVGhpcyBjYW4gYmUgdXNlZnVsIHdoZW4gdGhlIGJ1aWxkIHByb2Nlc3MgaXMgc2xvdy4KCkhlcmUgaXMgYW4gZXhhbXBsZSBvZiB1c2luZyB0aGUgIi1qIiBmbGFnOgoKYGBgIGNvbnNvbGUKJCBtYWtlIC1qNApnY2MgLW8gZm9vIGZvby5jIGJhci5jICYKZ2NjIC1vIGJheiBiYXouYyAmCmFyIHJjcyBsaWJmb28uYSBmb28ubyBiYXIubyAmCmdjYyAtbyBwcm9ncmFtIHByb2dyYW0ubyAtTC4gLWxmb28gJgp3YWl0CmBgYAoKSW4gdGhpcyBleGFtcGxlLCB0aGUgbWFrZSBwcm9ncmFtIGlzIGludm9rZWQgd2l0aCB0aGUgIi1qNCIgZmxhZy4gVGhpcyBjYXVzZXMgdGhlIGZvdXIgY29tbWFuZHMgdG8gYmUgZXhlY3V0ZWQgaW4gcGFyYWxsZWwuIFRoZSAid2FpdCIgY29tbWFuZCBpcyB1c2VkIHRvIHdhaXQgZm9yIGFsbCBvZiB0aGUgY29tbWFuZHMgdG8gZmluaXNoIGJlZm9yZSBleGl0aW5nLgoKVGhlIG1ha2UgcHJvZ3JhbSBjYW4gYWxzbyBiZSBpbnZva2VkIHdpdGggdGhlICItdyIgZmxhZyB0byBwcmludCB0aGUgd29ya2luZyBkaXJlY3RvcnkgYmVmb3JlIGV4ZWN1dGluZyBlYWNoIGNvbW1hbmQuIFRoaXMgY2FuIGJlIHVzZWZ1bCBmb3IgZGVidWdnaW5nIE1ha2VmaWxlcy4KCkhlcmUgaXMgYW4gZXhhbXBsZSBvZiB1c2luZyB0aGUgIi13IiBmbGFnOgoKYGBgIGNvbnNvbGUKJCBtYWtlIC13Ci9wYXRoL3RvL3Byb2plY3Qvc3JjCmdjYyAtbyBmb28gZm9vLmMgYmFyLmMKL3BhdGgvdG8vcHJvamVjdC9zcmMKZ2NjIC1vIGJheiBiYXouYwovcGF0aC90by9wcm9qZWN0L3NyYwphciByY3MgbGliZm9vLmEgZm9vLm8gYmFyLm8KL3BhdGgvdG8vcHJvamVjdC9zcmMKZ2NjIC1vIHByb2dyYW0gcHJvZ3JhbS5vIC1MLiAtbGZvbwpgYGAKCkluIHRoaXMgZXhhbXBsZSwgdGhlIG1ha2UgcHJvZ3JhbSBpcyBpbnZva2VkIHdpdGggdGhlICItdyIgZmxhZy4gVGhlIG91dHB1dCBzaG93cyB0aGUgd29ya2luZyBkaXJlY3RvcnkgYmVmb3JlIGVhY2ggY29tbWFuZCBpcyBleGVjdXRlZC4KClRoZSBtYWtlIHByb2dyYW0gY2FuIGFsc28gYmUgaW52b2tlZCB3aXRoIHRoZSAiLUMiIGZsYWcgdG8gY2hhbmdlIHRvIGEgZGlmZmVyZW50IGRpcmVjdG9yeSBiZWZvcmUgZXhlY3V0aW5nIHRoZSBjb21tYW5kcy4gVGhpcyBjYW4gYmUgdXNlZnVsIHdoZW4gdGhlIGJ1aWxkIHByb2Nlc3MgbmVlZHMgdG8gYmUgcnVuIGluIGEgZGlmZmVyZW50IGRpcmVjdG9yeS4KCkhlcmUgaXMgYW4gZXhhbXBsZSBvZiB1c2luZyB0aGUgIi1DIiBmbGFnOgoKYGBgIGNvbnNvbGUKJCBtYWtlIC1DIC9wYXRoL3RvL3Byb2plY3Qvc3JjCmdjYyAtbyBmb28gZm9vLmMgYmFyLmMKZ2NjIC1vIGJheiBiYXouYwphciByY3MgbGliZm9vLmEgZm9vLm8gYmFyLm8KZ2NjIC1vIHByb2dyYW0gcHJvZ3JhbS5vIC1MLiAtbGZvbwpgYGAKSW4gdGhpcyBleGFtcGxlLCB0aGUgbWFrZSBwcm9ncmFtIGlzIGludm9rZWQgd2l0aCB0aGUgIi1DIC9wYXRoL3RvL3Byb2plY3Qvc3JjIiBmbGFnLiBUaGlzIGNhdXNlcyB0aGUgbWFrZSBwcm9ncmFtIHRvIGNoYW5nZSB0byB0aGUgIi9wYXRoL3RvL3Byb2plY3Qvc3JjIiBkaXJlY3RvcnkgYmVmb3JlIGV4ZWN1dGluZyB0aGUgY29tbWFuZHMuCgojIyMgVXNpbmcgbWFrZWZpbGVzIGZvciBHaXRodWIgV29ya2Zsb3dzCgpJZiB5b3UncmUgYW55dGhpbmcgbGlrZSBtZSwgeW91IGxvdmUgYXV0b21hdGluZyBhd2F5IHRoZSB0ZWRpb3VzIHBhcnRzIG9mIHlvdXIgd29ya2Zsb3cuIE1ha2VmaWxlcyBhcmUgYSBncmVhdCB3YXkgdG8gZG8gdGhpcywgYW5kIHRoZXkncmUgZXNwZWNpYWxseSB1c2VmdWwgd2hlbiB3b3JraW5nIHdpdGggR2l0SHViIHJlcG9zaXRvcmllcy4gSSdsbCBzaG93IHlvdSBob3cgdG8gdXNlIG1ha2VmaWxlcyB0byBhdXRvbWF0ZSB5b3VyIEdpdEh1YiB3b3JrZmxvdywgZnJvbSBjcmVhdGluZyBuZXcgcmVwb3NpdG9yaWVzIHRvIHN1Ym1pdHRpbmcgcHVsbCByZXF1ZXN0cy4KCiMjIyBDcmVhdGluZyBhIE5ldyBSZXBvc2l0b3J5CgpMZXQncyBzYXkgeW91IHdhbnQgdG8gY3JlYXRlIGEgbmV3IHJlcG9zaXRvcnkgb24gR2l0SHViLiBZb3UgY291bGQgZG8gdGhpcyBtYW51YWxseSwgb2YgY291cnNlLCBidXQgd2h5IG5vdCBhdXRvbWF0ZSBpdD8gV2l0aCBhIG1ha2VmaWxlLCB5b3UgY2FuIGNyZWF0ZSBhIG5ldyByZXBvc2l0b3J5IHdpdGggYSBzaW5nbGUgY29tbWFuZC4KCkZpcnN0LCB5b3UnbGwgbmVlZCB0byBjcmVhdGUgYSBmaWxlIGNhbGxlZCBNYWtlZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgeW91ciBwcm9qZWN0LiBUaGVuLCBhZGQgdGhlIGZvbGxvd2luZyBsaW5lcyB0byB0aGUgZmlsZToKCmBgYCBtYWtlZmlsZQpyZXBvOgoJY3VybCAtdSAneW91ci11c2VybmFtZScgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2VyL3JlcG9zIC1kICd7Im5hbWUiOiIkKFJFUE9fTkFNRSkifScKYGBgCgpJbiB0aGlzIG1ha2VmaWxlLCB3ZSd2ZSBkZWZpbmVkIGEgcmVwbyB0YXJnZXQuIFdoZW4gd2UgcnVuIGBtYWtlIHJlcG8gYCwgdGhlIGN1cmwgY29tbWFuZCB3aWxsIGJlIGV4ZWN1dGVkLCB3aGljaCB3aWxsIGNyZWF0ZSBhIG5ldyByZXBvc2l0b3J5IG9uIEdpdEh1YiB3aXRoIHRoZSBuYW1lIHNwZWNpZmllZCBpbiB0aGUgIlJFUE9fTkFNRSIgdmFyaWFibGUuCgpUbyB1c2UgdGhpcyBtYWtlZmlsZSwgeW91J2xsIGZpcnN0IG5lZWQgdG8gc2V0IHRoZSAiUkVQT19OQU1FIiB2YXJpYWJsZSB0byB0aGUgbmFtZSBvZiB5b3VyIG5ldyByZXBvc2l0b3J5LiBZb3UgY2FuIGRvIHRoaXMgb24gdGhlIGNvbW1hbmQgbGluZSBsaWtlIHRoaXM6CgpgYGAgY29uc29sZQpSRVBPX05BTUU9bXktbmV3LXJlcG8gbWFrZSByZXBvCmBgYAoKWW91IGNhbiBhbHNvIGFkZCB0aGUgYFJFUE9fTkFNRWAgdmFyaWFibGUgdG8geW91ciBlbnZpcm9ubWVudCBzbyB5b3UgZG9uJ3QgaGF2ZSB0byBzcGVjaWZ5IGl0IGV2ZXJ5IHRpbWUgeW91IHJ1biB0aGUgbWFrZWZpbGUuIFRvIGRvIHRoaXMsIHlvdSBjYW4gYWRkIHRoZSBmb2xsb3dpbmcgbGluZSB0byB5b3VyIGAuYmFzaHJjYCBvciBgLnpzaHJjYCBmaWxlOgoKYGBgIGNvbnNvbGUKZXhwb3J0IFJFUE9fTkFNRT1teS1uZXctcmVwbwpgYGAKCk5vdywgeW91IGNhbiBzaW1wbHkgcnVuIG1ha2UgcmVwbyBhbmQgdGhlIHJlcG9zaXRvcnkgd2lsbCBiZSBjcmVhdGVkLgoKIyMjIFN1Ym1pdHRpbmcgYSBQdWxsIFJlcXVlc3QKCk5vdyB0aGF0IHlvdSBrbm93IGhvdyB0byBjcmVhdGUgYSBuZXcgcmVwb3NpdG9yeSB3aXRoIGEgbWFrZWZpbGUsIGxldCdzIGxvb2sgYXQgaG93IHRvIHN1Ym1pdCBhIHB1bGwgcmVxdWVzdC4KCkZpcnN0LCB5b3UnbGwgbmVlZCB0byBjcmVhdGUgYSBuZXcgYnJhbmNoIGZvciB5b3VyIGNoYW5nZXMuIFlvdSBjYW4gZG8gdGhpcyB3aXRoIHRoZSBgZ2l0IGNoZWNrb3V0YCBjb21tYW5kOgoKYGBgIGNvbnNvbGUKZ2l0IGNoZWNrb3V0IC1iIG15LW5ldy1icmFuY2gKYGBgCgpPbmNlIHlvdSd2ZSBtYWRlIHlvdXIgY2hhbmdlcyBhbmQgY29tbWl0dGVkIHRoZW0sIHlvdSBjYW4gcHVzaCB0aGUgYnJhbmNoIHRvIEdpdEh1YiB3aXRoIHRoZSBnaXQgcHVzaCBjb21tYW5kOgoKYGBgIGNvbnNvbGUKZ2l0IHB1c2ggb3JpZ2luIG15LW5ldy1icmFuY2gKYGBgCkZpbmFsbHksIHlvdSBjYW4gc3VibWl0IGEgcHVsbCByZXF1ZXN0IHdpdGggdGhlIGZvbGxvd2luZyBjdXJsIGNvbW1hbmQ6CgpgYGAgY29uc29sZQpjdXJsIC11ICd5b3VyLXVzZXJuYW1lJyBodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3lvdXItdXNlcm5hbWUveW91ci1yZXBvL3B1bGxzIC1kICd7InRpdGxlIjoiTXkgcHVsbCByZXF1ZXN0IiwiaGVhZCI6Im15LW5ldy1icmFuY2giLCJiYXNlIjoibWFzdGVyIn0nCmBgYAoKQXMgeW91IGNhbiBzZWUsIHRoZXJlJ3MgYSBsb3Qgb2YgYm9pbGVycGxhdGUgaW52b2x2ZWQgaW4gc3VibWl0dGluZyBhIHB1bGwgcmVxdWVzdC4gV2l0aCBhIG1ha2VmaWxlLCB3ZSBjYW4gYXV0b21hdGUgdGhpcyBwcm9jZXNzLgoKQWRkIHRoZSBmb2xsb3dpbmcgbGluZXMgdG8geW91ciBNYWtlZmlsZSA6CgpgYGAgbWFrZWZpbGUKcHVsbC1yZXF1ZXN0OgoJZ2l0IGNoZWNrb3V0IC1iIG15LW5ldy1icmFuY2gKCWdpdCBwdXNoIG9yaWdpbiBteS1uZXctYnJhbmNoCgljdXJsIC11ICd5b3VyLXVzZXJuYW1lJyBodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3lvdXItdXNlcm5hbWUveW91ci1yZXBvL3B1bGxzIC1kICd7InRpdGxlIjoiTXkgcHVsbCByZXF1ZXN0IiwiaGVhZCI6Im15LW5ldy1icmFuY2giLCJiYXNlIjoibWFzdGVyIn0nCmBgYApOb3csIHlvdSBjYW4gc3VibWl0IGEgcHVsbCByZXF1ZXN0IHdpdGggYSBzaW5nbGUgY29tbWFuZDoKCmBgYCBtYWtlZmlsZQptYWtlIHB1bGwtcmVxdWVzdApgYGAKClRoaXMgbWFrZWZpbGUgd2lsbCBjcmVhdGUgYSBuZXcgYnJhbmNoLCBwdXNoIGl0IHRvIEdpdEh1YiwgYW5kIHN1Ym1pdCBhIHB1bGwgcmVxdWVzdC4gQWxsIHlvdSBoYXZlIHRvIGRvIGlzIHdhaXQgZm9yIHlvdXIgY29kZSB0byBiZSByZXZpZXdlZCBhbmQgbWVyZ2VkIQoKQ29uY2x1c2lvbgoKTWFrZWZpbGVzIGFyZSBhIHBvd2VyZnVsIHRvb2wgZm9yIGF1dG9tYXRpbmcgeW91ciB3b3JrZmxvdy4gSW4gdGhpcyBhcnRpY2xlLCB3ZSd2ZSBsb29rZWQgYXQgdGhlIGJhc2ljIGNvbW1hbmRzIGFuZCBob3cgdG8gdXNlIG1ha2VmaWxlcyB0byBhdXRvbWF0ZSB0d28gY29tbW9uIEdpdEh1YiB0YXNrczogY3JlYXRpbmcgbmV3IHJlcG9zaXRvcmllcyBhbmQgc3VibWl0dGluZyBwdWxsIHJlcXVlc3RzLiBXaXRoIG1ha2VmaWxlcywgeW91IGNhbiBzYXZlIHRpbWUgYW5kIHN0cmVhbWxpbmUgeW91ciB3b3JrZmxvdy4gSG93ZXZlciwgdGhlcmUgYXJlIHNldmVyYWwgb3RoZXIgdXNlcyBvZiBtYWtlZmlsZXMuIEkgaG9wZSB0byBjb3ZlciB0aGVtIGluIGZ1dHVyZSBhcnRpY2xlcyBpbiB0aGlzIHNlcmllcy4gIA==
+# Make and Makefile: The ultimate tool to manage your projects
+
+### What is the difference between a make and makefile?
+A Makefile is a specific file format used by the "make" utility program to determine how to compile and link a group of source code files. Sometimes, it is commonly believed that make is used only in software development. In contrast, "make" is a general-purpose utility that can be used to build anything, not just software programs.
+
+### What are Makefiles?
+
+Makefiles are files that contain instructions on how to compile and link a program. They are typically used in Unix-like operating systems. 
+
+The make program reads a file named "Makefile" and then determines which targets need to be rebuilt. It then invokes the appropriate compiler or linker to do the work. To start using makefiles, all you need to do is create a file named "Makefile" at the root of your project.
+
+Makefiles can be created by hand or generated by a tool such as CMake.
+
+### Prerequisites
+This article assumes you have a working understanding of the Terminal and how to run commands.
+It also assumes you understand how and have installed dev tools that contain `gcc` `gdb` `make` etc 
+
+### Why use Makefiles?
+
+Makefiles provide a way to build a program from source code. They can be used to automate the build process.
+
+Makefiles can also be used to specify dependencies between files. For example, if a source file includes another file, the Makefile can ensure that the included file is up to date before building the source file.
+
+### How do I create a Makefile?
+
+There are two ways to create a Makefile. The first is to write one by hand. The second is to use a tool such as CMake.
+
+To write a Makefile by hand, you will need to know the syntax of the makefile language. A simple Makefile might look like this:
+
+``` makefile
+all:
+    gcc -o myprogram myprogram.c
+```
+This Makefile has one target, `all`, of which is the default target. The `all` target depends on `myprogram.c`, which is the source file that will be compiled.
+
+The `gcc` command is used to compile the source file. The `-o `option tells `gcc` to output the compiled program to a file named `myprogram`.
+
+To build the program, you would type `make` at the command line. This would cause `gcc` to compile `myprogram.c` and output the compiled program to `myprogram`.
+
+If you change `myprogram.c`, you can type `make` again to rebuild the program. Make will check the timestamp of `myprogram.c` and, since it is newer than `myprogram`, will recompile it.
+
+You can also type `make all` to rebuild all targets in the Makefile.
+
+Makefiles can be much more complex than the one shown above. They can have multiple targets and dependencies. They can also include variables and macros.
+
+To learn more about Makefiles, consult a book on Unix programming or read the
+[documentation](https://www.gnu.org/software/make/manual/make.html) for the make program.
+
+
+### How to Write a Makefile
+
+The syntax of a Makefile is very simple. Each rule must start with a target, followed by a colon, followed by a list of dependencies. The dependencies are separated by spaces. Optionally, the rule may also specify a list of commands to be executed to build the target. If a rule does not specify any commands, the make program will use a default set of commands. For most targets, the default commands will suffice. In some cases, however, it may be necessary to specify custom commands.
+
+The commands associated with a rule must be indented with tabs or spaces. The commands will be executed in the order in which they appear in the Makefile. Here is a simple example of a Makefile:
+
+``` makefile
+foo: foo.c bar.c    
+     gcc -o foo foo.c bar.c
+```
+This Makefile contains a single rule. The target is "foo" and the dependencies are "foo.c" and "bar.c". The commands to build "foo" are just the standard `gcc` commands. Note that the commands in the Makefile are executed in a shell. This means that shell features, such as wildcards and variables, can be used in the commands.
+
+Variables can be used in Makefiles to avoid repetition. For example, the `CFLAGS `variable can be used to specify the flags that should be passed to the C compiler. All rules that build C programs can then use the `$(CFLAGS)` variable instead of repeating the flags in each rule. Here is an example of a Makefile that uses the CFLAGS variable:
+
+``` makefile
+CFLAGS = -g -O2
+foo: foo.c bar.c
+     gcc $(CFLAGS) -o foo foo.c bar.c
+```
+
+In this example, the `CFLAGS `variable is set to "-g -O2". This causes the `gcc` command to be executed with the "-g" and "-O2" flags. The `$(CFLAGS)` variable can be used in any rule, not just rules that build C programs. It is common to set other variables, such as `CC` (the C compiler) and `LDFLAGS` (linker flags), in a Makefile.
+
+### Macros
+
+ Macros can also be used in Makefiles. Macros are similar to variables, but they are expanded before the Makefile is read. This means that macros can be used to conditionally include or exclude parts of the Makefile. 
+
+Here is an example of a Makefile that uses macros:
+
+``` makefile
+ifeq ($(DEBUG),1)
+     CFLAGS = -g -O0
+else
+      CFLAGS = -O2
+endif
+foo: foo.c bar.c
+     gcc $(CFLAGS) -o foo foo.c bar.c
+```
+
+In this example, the `DEBUG` macro is used to control the value of the `CFLAGS` variable. If `DEBUG` is set to 1, then `CFLAGS` will be set to "-g -O0". If `DEBUG` is not set, or is set to any other value, then `CFLAGS` will be set to "-O2".
+
+Macros can also be used to create abbreviations for long strings. For example, the following Makefile uses the `FOO` macro to abbreviate the "foo.c bar.c" string:
+
+``` makefile
+FOO = foo.c bar.c
+foo: $(FOO)
+    gcc -o foo $(FOO)
+```
+
+In this example, the `FOO` macro is expanded to "foo.c bar.c" when the rule is read. This is equivalent to writing "foo: foo.c bar.c" in the Makefile.
+
+Macros can also be used to conditionally include or exclude parts of the Makefile. Here is an example of a Makefile that uses macros to conditionally include or exclude parts of the Makefile:
+
+``` makefile
+ifeq ($(OS),Windows)
+    SOURCES = foo.c bar.c
+else
+    SOURCES = foo.c baz.c
+endif
+foo: $(SOURCES)
+     gcc -o foo $(SOURCES)
+```
+In this example, the  `OS `macro is used to control which files are included in the `SOURCES` variable. If `OS` is set to "Windows", then the `SOURCES` variable will be set to "foo.c bar.c". If `OS` is set to anything else, then the `SOURCES` variable will be set to "foo.c baz.c".
+
+The Makefile will then build "foo" using the files in the `SOURCES` variable.
+
+### Building multiple targets
+
+Makefiles can also be used to build multiple targets. Each rule in a Makefile can have multiple targets. The targets must be separated by spaces.
+
+Here is an example of a Makefile that builds two targets:
+
+``` makefile
+foo: foo.c bar.c
+      gcc -o foo foo.c bar.c
+baz: baz.c
+      gcc -o baz baz.c
+```
+In this example, the first rule builds the "foo" target. The second rule builds the "baz" target.
+
+The commands associated with each target can be different. In the example above, the "foo" target is built with the `gcc` command, while the "baz" target is built with the `cc` command.
+
+Makefiles can also be used to build multiple versions of a target. For example, a Makefile can be used to build a debug version and a release version of a program.
+
+Here is an example of a Makefile that builds two versions of a target:
+
+``` makefile
+DEBUG = 1
+ifeq ($(DEBUG),1)
+      CFLAGS = -g
+else
+      CFLAGS = -O2
+endif
+foo: foo.c
+      gcc $(CFLAGS) -o foo foo.c
+```
+
+In this example, the  `DEBUG` macro is used to control the value of the `CFLAGS` variable. If `DEBUG` is set to 1, then the `CFLAGS` variable will be set to "-g". If DEBUG is set to 0, then the `CFLAGS` variable will be set to "-O2".
+
+The "foo" target will be built twice, once with the "-g" flag and once with the "-O2" flag.
+
+### Building libraries and linking files
+
+Makefiles can also be used to build libraries. A library is a collection of object files that can be linked together to form a larger program.
+
+Here is an example of a Makefile that builds a library:
+
+``` makefile
+libfoo.a: foo.o bar.o
+        ar rcs libfoo.a foo.o bar.o
+```
+
+In this example, the "libfoo.a" target is a library. The "foo.o" and "bar.o" files are the object files that are included in the library. The "ar" command is used to create the library.
+
+Makefiles can also be used to build programs that use libraries. Here is an example of a Makefile that builds a program that uses a library:
+
+``` makefile
+program: program.o libfoo.a
+         gcc -o program program.o -L. -lfoo
+```
+In this example, the "program" target is a program. The "program.o" file is the object file that is included in the program. The "libfoo.a" file is the library that the program uses. The "-L." flag tells the linker to search the current directory for libraries. The "-lfoo" flag tells the linker to use the "libfoo.a" library.
+
+### Using path in makefile
+
+Makefiles can also be used to build programs that use libraries that are not in the default search path. Here is an example of a Makefile that builds a program that uses a library that is not in the default search path:
+
+``` makefile
+program: program.o libfoo.a
+        gcc -o program program.o -L/path/to/libfoo -lfoo
+```
+
+In this example, the "program" target is a program. The "program.o" file is the object file that is included in the program. The "libfoo.a" file is the library that the program uses. The "-L/path/to/libfoo" flag tells the linker to search the "/path/to/libfoo" directory for libraries. The "-lfoo" flag tells the linker to use the "libfoo.a" library.
+
+### Running makefiles with flags
+
+The make program can be invoked with the "-n" flag to print the commands that would be executed without actually executing them. This can be useful for debugging Makefiles. Here is an example of using the "-n" flag:
+
+``` shell
+$ make -n
+gcc -o foo foo.c bar.c
+gcc -o baz baz.c
+ar rcs libfoo.a foo.o bar.o
+gcc -o program program.o -L. -lfoo
+```
+
+In this example, the make program is invoked with the "-n" flag. The output shows the commands that would be executed if the "-n" flag was not used.
+
+The make program can also be invoked with the "-t" flag to touch the targets. This causes the targets to be updated with the current timestamp. This can be useful when the dependencies of the targets have changed and the targets need to be rebuilt.
+
+Here is an example of using the "-t" flag:
+
+``` console
+$ make -t
+touch foo
+touch baz
+touch libfoo.a
+touch program
+```
+
+In this example, the make program is invoked with the "-t" flag. The output shows the targets that were updated.
+
+The make program can also be invoked with the "-j" flag to run multiple commands in parallel. This can be useful when the build process is slow.
+
+Here is an example of using the "-j" flag:
+
+``` console
+$ make -j4
+gcc -o foo foo.c bar.c &
+gcc -o baz baz.c &
+ar rcs libfoo.a foo.o bar.o &
+gcc -o program program.o -L. -lfoo &
+wait
+```
+
+In this example, the make program is invoked with the "-j4" flag. This causes the four commands to be executed in parallel. The "wait" command is used to wait for all of the commands to finish before exiting.
+
+The make program can also be invoked with the "-w" flag to print the working directory before executing each command. This can be useful for debugging Makefiles.
+
+Here is an example of using the "-w" flag:
+
+``` console
+$ make -w
+/path/to/project/src
+gcc -o foo foo.c bar.c
+/path/to/project/src
+gcc -o baz baz.c
+/path/to/project/src
+ar rcs libfoo.a foo.o bar.o
+/path/to/project/src
+gcc -o program program.o -L. -lfoo
+```
+
+In this example, the make program is invoked with the "-w" flag. The output shows the working directory before each command is executed.
+
+The make program can also be invoked with the "-C" flag to change to a different directory before executing the commands. This can be useful when the build process needs to be run in a different directory.
+
+Here is an example of using the "-C" flag:
+
+``` console
+$ make -C /path/to/project/src
+gcc -o foo foo.c bar.c
+gcc -o baz baz.c
+ar rcs libfoo.a foo.o bar.o
+gcc -o program program.o -L. -lfoo
+```
+In this example, the make program is invoked with the "-C /path/to/project/src" flag. This causes the make program to change to the "/path/to/project/src" directory before executing the commands.
+
+### Using makefiles for Github Workflows
+
+If you're anything like me, you love automating away the tedious parts of your workflow. Makefiles are a great way to do this, and they're especially useful when working with GitHub repositories. I'll show you how to use makefiles to automate your GitHub workflow, from creating new repositories to submitting pull requests.
+
+### Creating a New Repository
+
+Let's say you want to create a new repository on GitHub. You could do this manually, of course, but why not automate it? With a makefile, you can create a new repository with a single command.
+
+First, you'll need to create a file called Makefile in the root directory of your project. Then, add the following lines to the file:
+
+``` makefile
+repo:
+	curl -u 'your-username' https://api.github.com/user/repos -d '{"name":"$(REPO_NAME)"}'
+```
+
+In this makefile, we've defined a repo target. When we run `make repo `, the curl command will be executed, which will create a new repository on GitHub with the name specified in the "REPO_NAME" variable.
+
+To use this makefile, you'll first need to set the "REPO_NAME" variable to the name of your new repository. You can do this on the command line like this:
+
+``` console
+REPO_NAME=my-new-repo make repo
+```
+
+You can also add the `REPO_NAME` variable to your environment so you don't have to specify it every time you run the makefile. To do this, you can add the following line to your `.bashrc` or `.zshrc` file:
+
+``` console
+export REPO_NAME=my-new-repo
+```
+
+Now, you can simply run make repo and the repository will be created.
+
+### Submitting a Pull Request
+
+Now that you know how to create a new repository with a makefile, let's look at how to submit a pull request.
+
+First, you'll need to create a new branch for your changes. You can do this with the `git checkout` command:
+
+``` console
+git checkout -b my-new-branch
+```
+
+Once you've made your changes and committed them, you can push the branch to GitHub with the git push command:
+
+``` console
+git push origin my-new-branch
+```
+Finally, you can submit a pull request with the following curl command:
+
+``` console
+curl -u 'your-username' https://api.github.com/repos/your-username/your-repo/pulls -d '{"title":"My pull request","head":"my-new-branch","base":"master"}'
+```
+
+As you can see, there's a lot of boilerplate involved in submitting a pull request. With a makefile, we can automate this process.
+
+Add the following lines to your Makefile :
+
+``` makefile
+pull-request:
+	git checkout -b my-new-branch
+	git push origin my-new-branch
+	curl -u 'your-username' https://api.github.com/repos/your-username/your-repo/pulls -d '{"title":"My pull request","head":"my-new-branch","base":"master"}'
+```
+Now, you can submit a pull request with a single command:
+
+``` makefile
+make pull-request
+```
+
+This makefile will create a new branch, push it to GitHub, and submit a pull request. All you have to do is wait for your code to be reviewed and merged!
+
+Conclusion
+
+Makefiles are a powerful tool for automating your workflow. In this article, we've looked at the basic commands and how to use makefiles to automate two common GitHub tasks: creating new repositories and submitting pull requests. With makefiles, you can save time and streamline your workflow. However, there are several other uses of makefiles. I hope to cover them in future articles in this series.  
